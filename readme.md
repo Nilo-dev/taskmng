@@ -10,5 +10,12 @@
   <li>Datatables</li>
   <li>jQuery</li>
   <li>XAMPP</li>
+  <li>MySQL Workbench</li>
   <li>Atom.io</li>
-</uj>
+</ul>
+
+<h2>Banco de Dados</h2>
+<p>Dentro da pasta "_db" encontra-se os arquivos .sql tanto do banco quanto dos dados pré-cadastrados para testes.</p>
+
+<h2>Funcionamento</h2>
+<p>Na tela inicial, é possível visualizar a porcentagem de projetos em atraso e finalizados. Também estão disponíveis as páginas de cadastro de projetos e atividades e página de listagem onde é possível visualizar todos os projetos cadastrados e suas respectivas atividades.</p>
