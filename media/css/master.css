@@ -1,0 +1,61 @@
+body {
+  font-family: 'Open sans', sans-serif;
+}
+.navbar {
+  margin-bottom: 2rem;
+}
+.andamento-projetos {
+  display: block;
+  max-width: 40%;
+  margin: 0 auto;
+}
+.projetos {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: .75%;
+  position: relative;
+}
+.projetos span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.projetos.abertos {
+  background-color: #4444b3;
+}
+.projetos.atrasados {
+  background-color: #d23737;
+}
+.projetos.finalizados {
+  background-color: #92de67;
+}
+
+h6.footer-text {
+  text-align: center;
+}
+img.footer-image {
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+footer.container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 700px;
+  }
+}
